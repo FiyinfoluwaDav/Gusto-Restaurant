@@ -2702,21 +2702,28 @@ blockquote {
     padding-top: 60px
 }
 
-.primary-button {
-    color: #000;
-    text-transform: uppercase;
-    background-color: #fff;
-    border: 1px solid #fff;
-    border-radius: 0;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 22px;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 120%;
-    text-decoration: none;
-    transition: border-color .3s;
-    display: flex
+.button-with-icon {
+  color: #e3af5a;
+  text-align: center;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background-color: #111;
+  border: 1px solid #dfb18780;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  font-family: Barlow Condensed, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.42857;
+  text-decoration: none;
+  transition-property: background-color;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 20px -10px #0003;
 }
 
 .primary-button:hover {
