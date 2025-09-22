@@ -186,7 +186,9 @@ td,th {
     line-height: 1;
     font-family: webflow-icons!important
 }
-
+a.w-webflow-badge {
+    display: none;
+    }
 .w-icon-slider-right:before {
     content: ""
 }
@@ -4936,19 +4938,18 @@ blockquote {
 .review-block {
     grid-column-gap: 30px;
     width: 100%;
-    display: flex
 }
 
 .review-img {
-    background-color: #000;
+    background-color: #00000000;
     min-width: 170px;
-    max-width: 170px
+    max-width: 190px
 }
 
 .review-image {
     object-fit: cover;
-    width: 30%;
-    height: 30%
+    width: auto;
+    height: auto;
 }
 
 .review-right {
@@ -7410,7 +7411,6 @@ blockquote {
 
     .review-image {
         height: auto;
-        min-height: 300px;
         max-height: 300px
     }
 
