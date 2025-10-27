@@ -63,7 +63,7 @@ To run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/FiyinfoluwaDav/gusto-restaurant.git
+git clone https://github.com/FiyinfoluwaDav/Gusto-Restaurant.git
 
 # Navigate into the folder
 cd gusto-restaurant
